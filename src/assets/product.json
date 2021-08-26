@@ -1,0 +1,207 @@
+{
+  "gridView": true,
+  "products": [
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title One"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1200,
+      "title": "Product Title Two"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Three"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 700,
+      "title": "Product Title Four"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 500,
+      "title": "Product Title Five"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 2100,
+      "title": "Product Title Six"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 2500,
+      "title": "Product Title Seven"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1800,
+      "title": "Product Title Eight"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1200,
+      "title": "Product Title Nine"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Ten"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1300,
+      "title": "Product Title Eleven"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 5620,
+      "title": "Product Title Twelve"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 750,
+      "title": "Product Title Thriteen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 6000,
+      "title": "Product Title Fourteen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Fifteen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 950,
+      "title": "Product Title Sixteen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Seventeen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Eighteen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Nineteen"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty one"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Two"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Three"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Four"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Five"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Six"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Seven"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Eight"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Twenty Nine"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Thirty"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 1000,
+      "title": "Product Title Thirty One"
+    },
+
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 11500,
+      "title": "Product Title Thirty two"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 21000,
+      "title": "Product Title Thirty Three"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 12000,
+      "title": "Product Title Thirty Four"
+    },
+
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 19000,
+      "title": "Product Title Thirty Five"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 5000,
+      "title": "Product Title Thirty Six"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 6000,
+      "title": "Product Title Thirty Seven"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 15000,
+      "title": "Product Title Thirty Eight"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 14000,
+      "title": "Product Title Thirty Nine"
+    },
+    {
+      "thumbNail": "./assets/images/product-thumbnail.jpg",
+      "price": 11000,
+      "title": "Product Title Fourty"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Student one",
+    "class": 3,
+    "section": "A",
+    "sub1": 27,
+    "sub2": 30,
+    "sub3": 20
+  },
+  {
+    "name": "Student two",
+    "class": 3,
+    "section": "A",
+    "sub1": 27,
+    "sub2": 30,
+    "sub3": 20
+  },
+  {
+    "name": "Student three",
+    "class": 4,
+    "section": "B",
+    "sub1": 40,
+    "sub2": 34,
+    "sub3": 21
+  },
+  {
+    "name": "Student four",
+    "class": 3,
+    "section": "C",
+    "sub1": 27,
+    "sub2": 30,
+    "sub3": 20
+  },
+  {
+    "name": "Student three",
+    "class": 3,
+    "section": "A",
+    "sub1": 50,
+    "sub2": 37,
+    "sub3": 25
+  },
+  {
+    "name": "Student five",
+    "class": 4,
+    "section": "D",
+    "sub1": 22,
+    "sub2": 21,
+    "sub3": 29
+  }
+]
