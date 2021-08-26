@@ -6,7 +6,6 @@ import { RouteTwoService } from './route-two.service';
 import { HttpClientModule } from '@angular/common/http';
 import { GridViewComponent } from './grid-view/grid-view.component';
 import { ListViewComponent } from './list-view/list-view.component';
-import { ProductFormComponent } from './product-forn/product-form.component';
 
 const routes: Routes = [
   {
@@ -16,7 +15,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [RouteTwoComponent, GridViewComponent, ListViewComponent, ProductFormComponent],
+  declarations: [RouteTwoComponent, GridViewComponent, ListViewComponent],
   imports: [CommonModule, RouterModule.forChild(routes), HttpClientModule],
   providers: [RouteTwoService],
 })
