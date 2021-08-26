@@ -1,14 +1,24 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <form class="w-50 float-end">
+      <form class="w-lg-50 float-end">
         <div class="container">
           <div class="row">
             <div class="col-8">
-              <button type="button" class="float-end btn btn-dark mx-2" (click)="changeToGridView(false)">
+              <button
+                type="button"
+                [ngClass]="{ 'view-active': !productsList?.gridView }"
+                class="float-end btn btn-dark mx-2"
+                (click)="changeToGridView(false)"
+              >
                 List view
               </button>
-              <button type="button" class="float-end btn btn-dark mx-2" (click)="changeToGridView(true)">
+              <button
+                type="button"
+                [ngClass]="{ 'view-active': productsList?.gridView }"
+                class="float-end btn btn-dark mx-2"
+                (click)="changeToGridView(true)"
+              >
                 Grid view
               </button>
             </div>
