@@ -1,0 +1,22 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th (resetEmiter)="colReset()" [appSort]="tableData" data-name="name" data-order="asc" scope="col">Name</th>
+      <th (resetEmiter)="colReset()" [appSort]="tableData" data-name="class" data-order="asc" scope="col">Class</th>
+      <th (resetEmiter)="colReset()" [appSort]="tableData" data-name="section" data-order="asc" scope="col">Section</th>
+      <th (resetEmiter)="colReset()" [appSort]="tableData" data-name="sub1" data-order="asc" scope="col">Sub1</th>
+      <th (resetEmiter)="colReset()" [appSort]="tableData" data-name="sub2" data-order="asc" scope="col">Sub2</th>
+      <th (resetEmiter)="colReset()" [appSort]="tableData" data-name="sub3" data-order="asc" scope="col">Sub3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of tableData">
+      <td>{{ data.name }}</td>
+      <td>{{ data.class }}</td>
+      <td>{{ data.section }}</td>
+      <td>{{ data.sub1 }}</td>
+      <td>{{ data.sub2 }}</td>
+      <td>{{ data.sub3 }}</td>
+    </tr>
+  </tbody>
+</table>

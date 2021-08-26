@@ -1,0 +1,54 @@
+<div>
+  <form class="form-group" [formGroup]="timerForm">
+    <div class="row">
+      <div class="col-auto">
+        <label class="col-form-label" for="timer">Enter Timer Limit</label>
+      </div>
+      <div class="col-auto">
+        <input
+          type="text"
+          [ngClass]="{
+            'border border-danger': errorState?.isError == 'block',
+            'border border-dark': errorState?.isError == 'none'
+          }"
+          [readonly]="isStarted"
+          required
+          formControlName="timerControl"
+          class="form-control"
+        />
+        <div class="invalid-feedback" [ngStyle]="{ display: errorState?.isError }">
+          {{ errorState?.errorMsg }}
+        </div>
+        <div class="float-start">
+          <button
+            type="button"
+            class="btn btn-outline-dark border border-2 border-dark m-2 ms-0"
+            (click)="onStartOrPause()"
+          >
+            <span
+              [ngClass]="{
+                'fw-bold': isStarted && getTimerFieldState()
+              }"
+              >Start</span
+            >
+            /
+            <span
+              [ngClass]="{
+                'fw-bold': !isStarted && getTimerFieldState()
+              }"
+              >Pause</span
+            >
+          </button>
+        </div>
+        <div class="float-start">
+          <button type="button" class="btn btn-outline-dark border border-2 border-dark m-2" (click)="resetCountDown()">
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="pauseStateLogger">
+    <p *ngFor="let pauseCount of countPausedArr">paused at {{ pauseCount }}</p>
+  </div>
+</div>

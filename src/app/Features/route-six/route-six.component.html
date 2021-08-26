@@ -1,0 +1,13 @@
+<div class="frame" (scroll)="scrolled($event)" #scrollframe>
+  <div *ngFor="let item of items; let i = index" class="item" #item>
+    <div class="row">
+      <div class="col-12">Div {{ i + 1 }}</div>
+    </div>
+    <div class="row">
+      <form>
+        <button type="button" class="btn btn-primary" (click)="showAlert(i + 1)">Click</button>
+      </form>
+    </div>
+  </div>
+</div>
+<h3 *ngIf="isLoading" class="text-center">Loading...</h3>
